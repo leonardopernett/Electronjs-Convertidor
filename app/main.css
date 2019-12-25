@@ -1,0 +1,45 @@
+*{
+    box-shadow: border-box;
+}
+
+html , body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 0;
+    margin:0;
+    position: absolute;
+}
+body, input, textarea {
+    font:menu
+}
+textarea, input , div , button {
+    outline:none;
+    margin:0;
+
+}
+
+.content {
+
+    height: 100vh;
+    display: flex;
+   
+}
+
+.markdown, .render-html{
+    
+    flex-grow: 1;
+    max-width: 50%;
+    min-height: 100%;
+    overflow: scroll;
+    font-size:16px;
+  
+}
+
+.markdown {
+
+    font-family: monospace;
+}
